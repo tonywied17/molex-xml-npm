@@ -1,0 +1,30 @@
+{
+  "name": "molex-xml",
+  "version": "0.1.0",
+  "description": "Zero-dependency XML parser/builder with preserved order, CDATA, comments, and type-casting",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "keywords": ["xml","parser","builder","molex","zero-deps"],
+  "author": "Anthony Wiedman",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tonywied17/molex-xml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tonywied17/molex-xml/issues"
+  },
+  "homepage": "https://github.com/tonywied17/molex-xml#readme",
+  "scripts": {
+    "test": "node test/test.js",
+    "example": "node test/example.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
