@@ -6,5 +6,6 @@
 
 const { parse, parseString } = require('./lib/parser');
 const { Builder } = require('./lib/builder');
+const { extractString } = require('./lib/utils');
 
-module.exports = { parse, parseString, Builder };
+module.exports = { parse, parseString, Builder, extractString };
