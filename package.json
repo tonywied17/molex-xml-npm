@@ -1,6 +1,6 @@
 {
   "name": "molex-xml-js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "XML parser/builder with preserved order, CDATA, comments, and type-casting",
   "main": "index.js",
   "files": [
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/tonywied17/molex-xml-js-npm/issues"
   },
-  "homepage": "https://github.com/tonywied17/molex-xmljs-npm#readme",
+  "homepage": "https://github.com/tonywied17/molex-xml-js-npm#readme",
   "scripts": {
     "test": "node test/test.js",
     "example": "node test/example.js"

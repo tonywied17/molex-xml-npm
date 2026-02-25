@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/molex-xml-js.svg)](https://www.npmjs.com/package/molex-xml-js)
 [![npm downloads](https://img.shields.io/npm/dm/molex-xml-js.svg)](https://www.npmjs.com/package/molex-xml-js)
-[![GitHub](https://img.shields.io/badge/GitHub-molex--xml--js-blue.svg)](https://github.com/tonywied17/molex-xml-js-npm)
+[![GitHub](https://img.shields.io/badge/GitHub-molex--xml--js--npm-blue.svg)](https://github.com/tonywied17/molex-xml-js-npm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D14-brightgreen.svg)](https://nodejs.org)
 [![Dependencies](https://img.shields.io/badge/dependencies-0-success.svg)](package.json)
