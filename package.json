@@ -1,6 +1,6 @@
 {
   "name": "molex-xml-js",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "XML parser/builder with preserved order, CDATA, comments, and type-casting",
   "main": "index.js",
   "files": [

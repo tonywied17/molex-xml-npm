@@ -12,7 +12,7 @@
 ## Features
 
 - **Zero dependencies** — Pure Node.js implementation
-- **xml2js-compatible API** — `parse`, `parseString` and `Builder` for easy migration
+- **xml2js-compatible API** — `parse`, `parseString`, `Builder` and `extractString` for easy migration
 - **Preserves child order & mixed content** — `#children` preserves interleaved text, CDATA, comments and elements
 - **CDATA and comments** — Parses and emits CDATA sections and comments
 - **Attribute merging** — Attributes are available under the `$` key
@@ -77,6 +77,10 @@ Parse XML using callback style. `opts` accepts the options listed above. If `cb`
 
 Callback signature: `cb(err, result)`.
 
+### `extractString(xml, [opts])`
+
+Utility function that quickly extracts string content from XML without performing a full object round-trip. See the `lib/` implementation for available options and exact behaviour.
+
 ### `parse(xml, opts)`
 
 Synchronously parse and return the object.
@@ -135,6 +139,7 @@ MIT
 
 - **Zero dependencies** — Pure Node.js implementation
 - **xml2js-compatible API** — `parse`, `parseString` and `Builder` for easy migration
+ - **xml2js-compatible API** — `parse`, `parseString`, `Builder` and `extractString` for easy migration
 - **Preserves child order & mixed content** — `#children` preserves interleaved text, CDATA, comments and elements
 - **CDATA and comments** — Parses and emits CDATA sections and comments
 - **Attribute merging** — Attributes are available under the `$` key
